@@ -1,12 +1,19 @@
-var firstValue = prompt("Input a number or a word");
+function stringFunction() {
 
-firstValue = parseInt(firstValue);
+	document.getElementById("stringFunction")
 
-if(isNaN(firstValue)) {
-	console.log ("This is a String!")
-} else {
-	console.log ("This is a Number!")
+	var firstValue = prompt("Input a number or a word to check if its a string or a number");
+
+	firstValue = parseInt(firstValue);
+
+	if(isNaN(firstValue)) {
+		console.log ("This is a String!")
+	} else {
+		console.log ("This is a Number!")
+	}
 }
+
+alert("Compare 2 numbers to see which one is greater")
 
 var number1 = prompt("Input a number");
 var number2 = prompt("Input a number");
