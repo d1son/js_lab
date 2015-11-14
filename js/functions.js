@@ -1,17 +1,16 @@
 function stringFunction() {
 
-	document.getElementById("stringFunction")
-
-	var firstValue = prompt("Input a number or a word to check if its a string or a number");
+	var firstValue;
 
 	firstValue = parseInt(firstValue);
 
 	if(isNaN(firstValue)) {
-		console.log ("This is a String!")
+		console.log ("This is a String!");
 	} else {
-		console.log ("This is a Number!")
+		console.log ("This is a Number!");
 	}
 }
+
 
 alert("Compare 2 numbers to see which one is greater")
 
