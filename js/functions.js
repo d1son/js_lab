@@ -19,3 +19,9 @@ if(number1 > number2) {
 } else {
 	console.log (number2 + " is greater!")
 }
+
+var cont1 = "Hello, "
+var cont2 = "my name is"
+var cont3 = " Dong"
+
+var result = 	prompt(cont1.concat(cont2,cont3));
